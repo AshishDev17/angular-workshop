@@ -1,0 +1,26 @@
+{
+  "name": "angular-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,html,css start.js",
+    "seed": "node seed.js",
+    "build:css": "node-sass assets/style.scss browser/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "bluebird": "^3.5.1",
+    "chalk": "^2.3.0",
+    "express": "^4.16.2",
+    "pg": "6.0.3",
+    "sequelize": "^4.32.1",
+    "volleyball": "^1.4.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.11"
+  }
+}
